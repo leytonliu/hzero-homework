@@ -12,7 +12,7 @@ export class ConfigProps {
 
 type ConfigKey = keyof ConfigProps;
 
-const CONFIG_NAME_SPACE_KEY = '_hzero_configStore_hzeroHomeworkHzeroHomeworkIntro';
+const CONFIG_NAME_SPACE_KEY = '_hzero_configStore_hzeroHomeworkIntro';
 
 export const getConfigStore = (): ConfigProps => {
   if (!(window as any)[CONFIG_NAME_SPACE_KEY]) {

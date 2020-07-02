@@ -3,10 +3,10 @@ import { RoutersConfig } from 'hzero-boot/lib/typings/IRouterConfig';
 const config: RoutersConfig = [
   // Insert New Router
   {
-    path: '/hzero-homework-hzero-homework-intro/hello',
-    component: () => import('../pages/hello/HelloHzeroHomeworkIntroPage'),
+    path: '/hzero-homework-intro/hello',
+    component: () => import('../pages/hello/HelloIntroPage'),
     authorized: true,
-    title: 'Hello HzeroHomeworkHzeroHomeworkIntro',
+    title: 'Hello HzeroHomeworkIntro',
   },
 ];
 
