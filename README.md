@@ -134,7 +134,7 @@ yarn run transpile
 #### 1. 单模块启动
 
 ```bash
-cd packages/hzero-homework-demo1
+cd packages/hzero-homework-intro
 yarn run start
 ```
 

@@ -16,7 +16,7 @@ module.exports =  {
       "name": "hzero-front-himp"
     },
     {
-      "name": "hzero-homework-demo1"
+      "name": "hzero-homework-intro"
     }
   ],
   "hzeroBoot": "hzero-boot/lib/pathInfo",
