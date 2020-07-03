@@ -1,0 +1,9 @@
+{
+  "apiList": [
+    "/iam/hzero/v1/users/self",
+    "/oauth/oauth/authorize",
+    "/oauth/login",
+    "/hpfm/v1/0/prompt/zh_CN",
+    "/iam/hzero/v1/menus/tree"
+  ]
+}

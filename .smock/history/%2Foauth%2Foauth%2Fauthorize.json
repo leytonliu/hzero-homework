@@ -1,0 +1,29 @@
+{
+  "470523f75277aff7d4aebd2036d6400c7f56ff9a": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "response_type": "token",
+        "client_id": "localhost",
+        "redirect_uri": "http://localhost:8001/exception/500"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/oauth/oauth/authorize",
+      "status": 302,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 02:14:52 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "cache-control": "no-store",
+        "x-xss-protection": "1; mode=block",
+        "x-frame-options": "DENY",
+        "location": "http://localhost:8001/exception/500#access_token=4a44bca0-5be5-4450-8819-9b3c0e46d555&token_type=bearer&expires_in=86399&refresh_token=80c5077f-ddf4-457b-966e-18fea4573c70&scope=default",
+        "x-content-type-options": "nosniff",
+        "content-language": "zh-CN"
+      },
+      "data": ""
+    }
+  }
+}
