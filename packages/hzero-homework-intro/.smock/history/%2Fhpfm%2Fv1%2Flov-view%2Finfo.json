@@ -1,0 +1,128 @@
+{
+  "651d134fbde217289809c94a7a84d5e29248b286": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "viewCode": "TODO.USER"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/lov-view/info",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 03:41:19 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": {
+        "viewCode": "TODO.USER",
+        "lovCode": "TODO.USER",
+        "lovTypeCode": "SQL",
+        "tenantId": 0,
+        "valueField": "employeeNumber",
+        "displayField": "employeeName",
+        "pageSize": 10,
+        "delayLoadFlag": 0,
+        "queryUrl": "/hpfm/v1/lovs/sql/data",
+        "queryFields": [
+          {
+            "field": "employeeName",
+            "label": "用户名称",
+            "dataType": null,
+            "sourceCode": null
+          }
+        ],
+        "tableFields": [
+          {
+            "title": "用户编码",
+            "dataIndex": "employeeNumber",
+            "width": 100
+          },
+          {
+            "title": "用户名称",
+            "dataIndex": "employeeName",
+            "width": 200
+          },
+          {
+            "title": "邮箱",
+            "dataIndex": "email",
+            "width": 200
+          }
+        ]
+      }
+    }
+  },
+  "c43f50667af7f562462f23a391454fd1f28c4e6e": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "viewCode": "LOV_CODE"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/lov-view/info",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 03:43:09 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": {
+        "failed": true,
+        "code": "error.forbidden",
+        "message": "禁止访问",
+        "type": "warn"
+      }
+    }
+  },
+  "4a963652da67721adca14e1b2c29fcefe70bdc2e": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "viewCode": "INTRO.SEX"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/lov-view/info",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 04 Jul 2020 12:28:12 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": {
+        "failed": true,
+        "code": "error.forbidden",
+        "message": "禁止访问",
+        "type": "warn"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "ad1878e2c94c96e9dc599a9e9c0a0bba30b7dc42": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "response_type": "token",
+        "client_id": "localhost",
+        "redirect_uri": "http://localhost:8000/"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/oauth/oauth/authorize",
+      "status": 302,
+      "headers": {
+        "date": "Sun, 05 Jul 2020 01:59:59 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "cache-control": "no-store",
+        "x-xss-protection": "1; mode=block",
+        "x-frame-options": "DENY",
+        "location": "http://localhost:8000/#access_token=e7606a2e-bdfd-4331-8a6c-ec910b63f246&token_type=bearer&expires_in=86399&refresh_token=69177f8c-13d2-4b4e-a5e4-0c90beafe473&scope=default",
+        "x-content-type-options": "nosniff",
+        "content-language": "zh-CN"
+      },
+      "data": ""
+    }
+  },
+  "e31fc3322de008d670aaeb4e141e7709a487257f": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "response_type": "token",
+        "client_id": "localhost",
+        "redirect_uri": "http://localhost:8000/workplace"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/oauth/oauth/authorize",
+      "status": 302,
+      "headers": {
+        "date": "Sun, 05 Jul 2020 01:55:50 GMT",
+        "content-length": "0",
+        "connection": "keep-alive",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "set-cookie": [
+          "JSESSIONID=OWJkZTAwYjAtOTRkNC00NDFiLWFjMzctYWY5NWM4MzU5ODFk; path=/oauth; HttpOnly"
+        ],
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "location": "http://backend.jd1.jajabjbj.top/oauth/login",
+        "x-content-type-options": "nosniff"
+      },
+      "data": ""
+    }
+  }
+}

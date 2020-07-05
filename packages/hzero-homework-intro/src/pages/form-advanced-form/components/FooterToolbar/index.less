@@ -1,0 +1,38 @@
+@import '~antd/es/style/themes/default.less';
+
+.toolbar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+  height: 56px;
+  padding: 0 12px;
+  line-height: 56px;
+  border-top: 1px solid @border-color-split;
+  box-shadow: @box-shadow-base;
+  text-align: center;
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  button + button {
+    margin-left: 8px;
+  }
+}
