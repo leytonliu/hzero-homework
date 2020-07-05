@@ -1,5 +1,6 @@
 const Mock = require('mockjs');
 
+// eslint-disable-next-line prefer-const
 const users = [
   {
     name: '刘立东',
@@ -15,9 +16,10 @@ const users = [
     age: '23',
     email: 'lina.liao@hand-china.com',
     birth: '1997-06-05',
-    techStack: ['H5', 'React', 'Vue'],
+    techStack: ['H5', 'React'],
   },
 ];
+
 const userQueryData = {
   content: users,
   total: 1000,
@@ -34,6 +36,11 @@ const userQueryResponse = Mock.mock(userQueryData);
 const userAddResponse = Mock.mock(userAddData);
 
 export default {
-  'POST /_api/query-intro-info': userQueryResponse,
-  'POST /_api/add-user': userAddResponse,
+  'POST /_api/query-intro-info': (req, res) => {
+    res.json(userQueryResponse);
+  },
+  'POST /_api/add-user': (req, res) => {
+    users.push(req.body[0]);
+    res.json(userAddResponse);
+  },
 };
