@@ -5,7 +5,7 @@ const noProxy = process.env.NO_PROXY === 'true';
 
 let allMock = {
   'GET /hpfm/v1/lovs/data': (req, res) => {
-    const lovCode = req.query.lovCode;
+    const { lovCode } = req.query;
     const retData = require('./_mock-data/lovData')[lovCode] || [];
     res.json(retData);
   },
@@ -15,7 +15,7 @@ let allMock = {
   'GET /hpfm/v1/lovs/sql/data': require('./_utils/lov').getLovData,
 
   'GET /hpfm/v1/lov-view/info': (req, res) => {
-    const viewCode = req.query.viewCode;
+    const { viewCode } = req.query;
     const retData = require('./_mock-data/lovView')[viewCode] || {};
     res.json(retData);
   },
@@ -39,7 +39,7 @@ const importMock = {
 };
 
 if (!noProxy) {
-  Object.keys(importMock).forEach((mockKey) => {
+  Object.keys(importMock).forEach(mockKey => {
     allMock = Object.assign(allMock, importMock[mockKey]);
   });
 }

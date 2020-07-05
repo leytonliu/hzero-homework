@@ -1,5 +1,6 @@
 {
   "f0b9fccc1a43cc0687522667afdecb0645871d03": {
+    "method": "GET",
     "request": {
       "params": {
         "lang": "zh_CN",
@@ -11,7 +12,7 @@
       "path": "/iam/hzero/v1/menus/tree",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:40 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",

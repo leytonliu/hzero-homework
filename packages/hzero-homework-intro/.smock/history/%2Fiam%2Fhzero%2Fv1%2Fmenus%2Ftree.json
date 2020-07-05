@@ -12,7 +12,7 @@
       "path": "/iam/hzero/v1/menus/tree",
       "status": 200,
       "headers": {
-        "date": "Sun, 05 Jul 2020 02:40:44 GMT",
+        "date": "Sun, 05 Jul 2020 08:12:00 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -171,6 +171,36 @@
                 }
               ],
               "viewCode": "my_homework"
+            }
+          ],
+          "viewCode": ""
+        },
+        {
+          "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHXQ3943rIcBn7tn0VHEYkw/30h+qoh8XpCVQ6a40zA4rQ==",
+          "id": 1922,
+          "code": "hzero.c7n-ui-learn",
+          "name": "赋能案例",
+          "quickIndex": "fnal",
+          "level": "site",
+          "parentId": 0,
+          "type": "root",
+          "sort": 0,
+          "route": "",
+          "subMenus": [
+            {
+              "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHXQ3943rIcBn7tn0VHEYkw/Qcb7t1bS1HyFNagtzfmKkQ==",
+              "id": 1923,
+              "code": "hzero.c7n-ui-learn.sample-test-module",
+              "name": "Part 1",
+              "quickIndex": "Part1",
+              "level": "site",
+              "parentId": 1922,
+              "type": "menu",
+              "sort": 0,
+              "icon": "id-card",
+              "route": "/hzero-front-demo-teach/intro",
+              "parentName": "赋能案例",
+              "viewCode": "sample-test-module"
             }
           ],
           "viewCode": ""

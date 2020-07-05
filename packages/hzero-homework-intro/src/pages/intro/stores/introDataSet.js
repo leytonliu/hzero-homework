@@ -66,6 +66,13 @@ const introDataSet = () => ({
         params: data[0],
       };
     },
+    destroy: ({ data }) => {
+      return {
+        url: '/_api/delete-user',
+        method: 'POST',
+        params: data[0],
+      };
+    },
   },
 });
 export default introDataSet;

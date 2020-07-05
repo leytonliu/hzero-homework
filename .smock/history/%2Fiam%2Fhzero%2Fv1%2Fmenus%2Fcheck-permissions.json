@@ -1,17 +1,17 @@
 {
-  "197e9b8dbb631971421585ef69213b22f13d29ed": {
-    "method": "GET",
+  "993db4d0074a986ce5c414a0624b88ed679ddf9e": {
     "request": {
-      "params": {
-        "lovCode": "HPFM.DASHBOARD_CARD.TYPE"
-      },
-      "body": {}
+      "params": {},
+      "body": [
+        "hiam.tenants.button.create",
+        "hiam.tenants.button.edit"
+      ]
     },
     "response": {
-      "path": "/hpfm/v1/lovs/value",
+      "path": "/iam/hzero/v1/menus/check-permissions",
       "status": 200,
       "headers": {
-        "date": "Sun, 05 Jul 2020 07:55:30 GMT",
+        "date": "Fri, 03 Jul 2020 07:56:10 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -25,19 +25,14 @@
       },
       "data": [
         {
-          "value": "schedule",
-          "meaning": "待办类",
-          "orderSeq": 10
+          "code": "hiam.tenants.button.create",
+          "approve": true,
+          "controllerType": null
         },
         {
-          "value": "report",
-          "meaning": "报表类",
-          "orderSeq": 20
-        },
-        {
-          "value": "notice",
-          "meaning": "通知类",
-          "orderSeq": 30
+          "code": "hiam.tenants.button.edit",
+          "approve": true,
+          "controllerType": null
         }
       ]
     }

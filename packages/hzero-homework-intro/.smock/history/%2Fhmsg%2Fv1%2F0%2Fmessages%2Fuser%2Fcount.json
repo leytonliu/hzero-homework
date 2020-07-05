@@ -9,7 +9,7 @@
       "path": "/hmsg/v1/0/messages/user/count",
       "status": 200,
       "headers": {
-        "date": "Sun, 05 Jul 2020 02:40:44 GMT",
+        "date": "Sun, 05 Jul 2020 08:11:59 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",

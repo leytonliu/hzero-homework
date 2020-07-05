@@ -1,4 +1,4 @@
-let data = {};
+const data = {};
 
 data['TODO.USER'] = {
   viewCode: 'TODO.USER',

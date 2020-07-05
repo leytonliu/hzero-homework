@@ -9,7 +9,7 @@
       "path": "/iam/hzero/v1/member-roles/self-roles",
       "status": 200,
       "headers": {
-        "date": "Sun, 05 Jul 2020 02:40:44 GMT",
+        "date": "Sun, 05 Jul 2020 08:12:00 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",

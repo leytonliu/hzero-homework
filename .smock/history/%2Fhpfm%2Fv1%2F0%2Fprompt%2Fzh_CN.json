@@ -1,5 +1,6 @@
 {
   "aabe635f2edc8291673a3c8ed88182a9e373373d": {
+    "method": "GET",
     "request": {
       "params": {
         "promptKey": "hzero.common"
@@ -10,7 +11,7 @@
       "path": "/hpfm/v1/0/prompt/zh_CN",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:39 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -537,7 +538,7 @@
       "path": "/hpfm/v1/0/prompt/zh_CN",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:40 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -659,7 +660,7 @@
       "path": "/hpfm/v1/0/prompt/zh_CN",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:41 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -780,7 +781,7 @@
       "path": "/hpfm/v1/0/prompt/zh_CN",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 07:57:21 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -900,7 +901,7 @@
       "path": "/hpfm/v1/0/prompt/zh_CN",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:54 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:40 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
@@ -922,6 +923,35 @@
         "hpfm.tenantSelect.view.message.me": "当前",
         "hpfm.tenantSelect.view.message.modal.history": "最近",
         "hpfm.tenantSelect.model.tenantSelect.tenantNum": "租户编码"
+      }
+    }
+  },
+  "f7667bfae8b6f593d41c84893ab8b9092dc02077": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "promptKey": "entity.tenant,hiam.tenants"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/0/prompt/zh_CN",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 07:56:09 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": {
+        "hiam.tenants.model.tenant.limitUserQty": "限制用户数"
       }
     }
   }

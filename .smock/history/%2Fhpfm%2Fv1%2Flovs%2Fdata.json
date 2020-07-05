@@ -1,5 +1,6 @@
 {
   "16835ad55ea7862ff5209c9dac59107da575146c": {
+    "method": "GET",
     "request": {
       "params": {
         "lovCode": "HPFM.LANGUAGE"
@@ -10,7 +11,7 @@
       "path": "/hpfm/v1/lovs/data",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:40 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",

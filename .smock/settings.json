@@ -4,6 +4,8 @@
     "/oauth/oauth/authorize",
     "/oauth/login",
     "/hpfm/v1/0/prompt/zh_CN",
-    "/iam/hzero/v1/menus/tree"
+    "/iam/hzero/v1/menus/tree",
+    "/iam/v1/tenants",
+    "/iam/hzero/v1/menus/check-permissions"
   ]
 }

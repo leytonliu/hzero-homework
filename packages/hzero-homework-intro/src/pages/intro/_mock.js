@@ -1,6 +1,5 @@
 const Mock = require('mockjs');
 
-// eslint-disable-next-line prefer-const
 const users = [
   {
     name: '刘立东',
@@ -20,27 +19,47 @@ const users = [
   },
 ];
 
-const userQueryData = {
-  content: users,
-  total: 1000,
-  success: true,
-};
-
-const userAddData = {
-  content: [],
-  total: 1000,
-  success: true,
-};
-
-const userQueryResponse = Mock.mock(userQueryData);
-const userAddResponse = Mock.mock(userAddData);
-
-export default {
-  'POST /_api/query-intro-info': (req, res) => {
-    res.json(userQueryResponse);
-  },
-  'POST /_api/add-user': (req, res) => {
+const addUser = (req, res) => {
+  const index = users.findIndex((user) => user.name === req.body[0].name);
+  if (index === -1) {
     users.push(req.body[0]);
-    res.json(userAddResponse);
-  },
+  } else {
+    users[index].sex = req.body[0].sex;
+    users[index].age = req.body[0].age;
+    users[index].email = req.body[0].email;
+    users[index].birth = req.body[0].birth;
+    users[index].techStack = req.body[0].techStack;
+  }
+  res.json({
+    content: users,
+    total: 1000,
+    success: true,
+  });
+};
+
+const queryUser = (req, res) => {
+  const userRes = users;
+  res.json(
+    Mock.mock({
+      content: userRes,
+      total: 1000,
+      success: true,
+    })
+  );
+};
+const deleteUser = (req, res) => {
+  const index = users.findIndex((user) => user.name === req.body[0].name);
+  users.splice(index);
+  res.json(
+    Mock.mock({
+      content: users,
+      total: 1000,
+      success: true,
+    })
+  );
+};
+export default {
+  'POST /_api/query-intro-info': queryUser,
+  'POST /_api/add-user': addUser,
+  'POST /_api/delete-user': deleteUser,
 };

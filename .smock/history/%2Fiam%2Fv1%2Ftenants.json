@@ -1,0 +1,118 @@
+{
+  "7ecd99240cba9f077d6464fe590629aa2b948707": {
+    "request": {
+      "params": {
+        "page": "0",
+        "size": "10"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/iam/v1/tenants",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 07:56:09 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": {
+        "totalPages": 1,
+        "totalElements": 5,
+        "numberOfElements": 5,
+        "size": 10,
+        "number": 0,
+        "content": [
+          {
+            "creationDate": "2020-02-14 01:38:06",
+            "createdBy": null,
+            "lastUpdateDate": null,
+            "lastUpdatedBy": null,
+            "objectVersionNumber": 1,
+            "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHUe08nOp87xy6oNJldrKOAitM75bu60w2nTWWa45SdUDA==",
+            "tenantId": 0,
+            "tenantName": "HZERO平台",
+            "tenantNum": "HZERO",
+            "enabledFlag": 1,
+            "limitUserQty": null,
+            "group": null,
+            "sourceKey": null,
+            "sourceCode": null
+          },
+          {
+            "creationDate": "2020-03-10 14:56:11",
+            "createdBy": null,
+            "lastUpdateDate": null,
+            "lastUpdatedBy": null,
+            "objectVersionNumber": 2,
+            "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHUe08nOp87xy6oNJldrKOAijec/CMYNHZh8fYE7pU0aeQ==",
+            "tenantId": 1,
+            "tenantName": "SAP Hzero",
+            "tenantNum": "SAP",
+            "enabledFlag": 1,
+            "limitUserQty": 50,
+            "group": null,
+            "sourceKey": null,
+            "sourceCode": null
+          },
+          {
+            "creationDate": "2020-03-23 00:11:28",
+            "createdBy": null,
+            "lastUpdateDate": null,
+            "lastUpdatedBy": null,
+            "objectVersionNumber": 1,
+            "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHUe08nOp87xy6oNJldrKOAia6iFZoCrdXTPH4010VwZPw==",
+            "tenantId": 2,
+            "tenantName": "厚生新能源",
+            "tenantNum": "HORIZON",
+            "enabledFlag": 1,
+            "limitUserQty": null,
+            "group": null,
+            "sourceKey": null,
+            "sourceCode": null
+          },
+          {
+            "creationDate": "2020-04-07 13:37:07",
+            "createdBy": null,
+            "lastUpdateDate": null,
+            "lastUpdatedBy": null,
+            "objectVersionNumber": 1,
+            "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHUe08nOp87xy6oNJldrKOAiOhbmKyEFub/Z5SiYwKXmKg==",
+            "tenantId": 3,
+            "tenantName": "SHSH",
+            "tenantNum": "SHSH",
+            "enabledFlag": 1,
+            "limitUserQty": 8000,
+            "group": null,
+            "sourceKey": null,
+            "sourceCode": null
+          },
+          {
+            "creationDate": "2020-04-21 10:27:36",
+            "createdBy": null,
+            "lastUpdateDate": null,
+            "lastUpdatedBy": null,
+            "objectVersionNumber": 1,
+            "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHUe08nOp87xy6oNJldrKOAiW6hyQhtVKNE+A3b1k5aRAA==",
+            "tenantId": 4,
+            "tenantName": "HR人事积分管理",
+            "tenantNum": "HRSCORE",
+            "enabledFlag": 1,
+            "limitUserQty": null,
+            "group": null,
+            "sourceKey": null,
+            "sourceCode": null
+          }
+        ],
+        "empty": false
+      }
+    }
+  }
+}

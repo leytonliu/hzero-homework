@@ -9,7 +9,7 @@
       "path": "/iam/hzero/v1/users/self",
       "status": 200,
       "headers": {
-        "date": "Fri, 03 Jul 2020 02:14:53 GMT",
+        "date": "Fri, 03 Jul 2020 08:11:39 GMT",
         "content-type": "application/json;charset=UTF-8",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",
